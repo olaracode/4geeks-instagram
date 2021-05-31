@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.instagramContainer {
+  width: 40vw;
+  height: 80vh;
+  border: 1px solid black;
+  background-color: white;
+}
+.instagramHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.headerLeft {
+  display: flex;
+}
+.userTag {
+  vertical-align: middle;
+  padding: 10px;
+}
+.userTag > h2 {
+  font-size: medium;
+}
+.userTag > p {
+  font-weight: 100;
+  font-size: small;
+}
+.htmlImage {
+  width: 40px;
+  border-radius: 50%;
+  background: #fafafad7;
+}
+.headerRight {
+  padding: 10px;
+}
+.dots {
+  width: 30px;
+}
+.instagramImage {
+  height: 60%;
+  background-color: black;
+}
+.mainImage {
+  max-width: 100%;
+  padding: 0;
+}
+.icon {
+  width: 25px;
+  padding: 10px;
+}
+.instagramButtons {
+  justify-content: space-between;
+  display: flex;
+}
+.instagramFooter {
+  padding: 10px;
+}
